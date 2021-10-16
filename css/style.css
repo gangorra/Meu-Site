@@ -1,0 +1,96 @@
+body {
+    background-color: #c6c6c6;
+    font: 20px Ariel, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/fundo.jpg'); 
+    border: 3px solid #000000;
+    font-weight: bold;
+    color: black;
+}
+
+.photo {
+    border: 3px solid rgba(159,239,0,255);
+}
+
+.quem-sou {
+    background-color: rgba(26,35,50,255);
+    color: white; 
+}
+
+.title_quem-sou {
+    font-weight: bold;
+    text-decoration: underline;
+    font: 25px Impact, fantasy;
+}
+
+.post_quemsou {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;        /*deixar no centro*/
+    align-items: flex-start;      /*começa da esquerda*/
+    padding-top: 20px;
+}
+
+.margin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Objetivos {
+    background-color: rgba(20,29,43,255);
+    color: rgba(159,239,0,255);
+}
+
+.title_objetivos {
+    font-weight: bold;
+    text-decoration: underline;
+    font: 25px Impact, fantasy;
+}
+
+.meu-mundo {
+    background-color:rgba(26,35,50,255);
+    color: white;
+}
+
+.title_meu-mundo {
+    font-weight: bold;
+    text-decoration: underline;
+    font: 25px Impact, fantasy;
+    padding-bottom: 30px;
+}
+
+.bg-footer {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/fundo.jpg');
+    color: white;
+    padding-top: 20px;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    align-content: space-around;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+
+.contacts_list {
+    list-style-type: none;
+    font-size: 15px; 
+    padding-top: 15px;
+}
